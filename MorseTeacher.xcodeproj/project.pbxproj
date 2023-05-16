@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68DAE9D829F1EB2100BDD28B /* MorseTeacherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DAE9D729F1EB2100BDD28B /* MorseTeacherApp.swift */; };
+		68DAE9DA29F1EB2100BDD28B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DAE9D929F1EB2100BDD28B /* ContentView.swift */; };
+		68DAE9DC29F1EB2200BDD28B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68DAE9DB29F1EB2200BDD28B /* Assets.xcassets */; };
+		68DAE9DF29F1EB2200BDD28B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68DAE9DE29F1EB2200BDD28B /* Preview Assets.xcassets */; };
+		68F4AC052A0D8E9B002D6106 /* ScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F4AC042A0D8E9B002D6106 /* ScoreViewModel.swift */; };
+		68F4AC072A0D8F74002D6106 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F4AC062A0D8F74002D6106 /* ButtonView.swift */; };
+		68F4AC0B2A0D9081002D6106 /* line.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 68F4AC092A0D9081002D6106 /* line.mp3 */; };
+		68F4AC0C2A0D9081002D6106 /* dot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 68F4AC0A2A0D9081002D6106 /* dot.mp3 */; };
+		68F4AC0E2A0D91D0002D6106 /* MorseAlphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F4AC0D2A0D91D0002D6106 /* MorseAlphabet.swift */; };
+		68F4AC102A0D9261002D6106 /* SymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F4AC0F2A0D9261002D6106 /* SymbolView.swift */; };
+		68F4AC122A0D92D1002D6106 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F4AC112A0D92D1002D6106 /* SettingsView.swift */; };
+		68F4AC142A0D9332002D6106 /* InstructionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F4AC132A0D9332002D6106 /* InstructionsView.swift */; };
+		68F4AC162A0D936B002D6106 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F4AC152A0D936B002D6106 /* AboutView.swift */; };
+		68F4AC182A0D94AA002D6106 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F4AC172A0D94AA002D6106 /* TutorialView.swift */; };
+		68F4AC1A2A0D95A4002D6106 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F4AC192A0D95A4002D6106 /* QuizView.swift */; };
+		68F4AC1C2A0E5812002D6106 /* PadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F4AC1B2A0E5812002D6106 /* PadView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68DAE9D429F1EB2100BDD28B /* MorseTeacher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorseTeacher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68DAE9D729F1EB2100BDD28B /* MorseTeacherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseTeacherApp.swift; sourceTree = "<group>"; };
+		68DAE9D929F1EB2100BDD28B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		68DAE9DB29F1EB2200BDD28B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68DAE9DE29F1EB2200BDD28B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		68F4AC042A0D8E9B002D6106 /* ScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewModel.swift; sourceTree = "<group>"; };
+		68F4AC062A0D8F74002D6106 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		68F4AC092A0D9081002D6106 /* line.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = line.mp3; sourceTree = "<group>"; };
+		68F4AC0A2A0D9081002D6106 /* dot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dot.mp3; sourceTree = "<group>"; };
+		68F4AC0D2A0D91D0002D6106 /* MorseAlphabet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseAlphabet.swift; sourceTree = "<group>"; };
+		68F4AC0F2A0D9261002D6106 /* SymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolView.swift; sourceTree = "<group>"; };
+		68F4AC112A0D92D1002D6106 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		68F4AC132A0D9332002D6106 /* InstructionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsView.swift; sourceTree = "<group>"; };
+		68F4AC152A0D936B002D6106 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		68F4AC172A0D94AA002D6106 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		68F4AC192A0D95A4002D6106 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		68F4AC1B2A0E5812002D6106 /* PadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68DAE9D129F1EB2100BDD28B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68DAE9CB29F1EB2100BDD28B = {
+			isa = PBXGroup;
+			children = (
+				68DAE9D629F1EB2100BDD28B /* MorseTeacher */,
+				68DAE9D529F1EB2100BDD28B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68DAE9D529F1EB2100BDD28B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68DAE9D429F1EB2100BDD28B /* MorseTeacher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68DAE9D629F1EB2100BDD28B /* MorseTeacher */ = {
+			isa = PBXGroup;
+			children = (
+				68DAE9E729F1EB4600BDD28B /* ViewModel */,
+				68DAE9E629F1EB3D00BDD28B /* View */,
+				68DAE9E529F1EB3400BDD28B /* Model */,
+				68DAE9D729F1EB2100BDD28B /* MorseTeacherApp.swift */,
+				68DAE9D929F1EB2100BDD28B /* ContentView.swift */,
+				68DAE9DB29F1EB2200BDD28B /* Assets.xcassets */,
+				68F4AC082A0D9081002D6106 /* Resources */,
+				68DAE9DD29F1EB2200BDD28B /* Preview Content */,
+			);
+			path = MorseTeacher;
+			sourceTree = "<group>";
+		};
+		68DAE9DD29F1EB2200BDD28B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				68DAE9DE29F1EB2200BDD28B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		68DAE9E529F1EB3400BDD28B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				68F4AC0D2A0D91D0002D6106 /* MorseAlphabet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		68DAE9E629F1EB3D00BDD28B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				68F4AC062A0D8F74002D6106 /* ButtonView.swift */,
+				68F4AC0F2A0D9261002D6106 /* SymbolView.swift */,
+				68F4AC112A0D92D1002D6106 /* SettingsView.swift */,
+				68F4AC132A0D9332002D6106 /* InstructionsView.swift */,
+				68F4AC152A0D936B002D6106 /* AboutView.swift */,
+				68F4AC172A0D94AA002D6106 /* TutorialView.swift */,
+				68F4AC192A0D95A4002D6106 /* QuizView.swift */,
+				68F4AC1B2A0E5812002D6106 /* PadView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		68DAE9E729F1EB4600BDD28B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				68F4AC042A0D8E9B002D6106 /* ScoreViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		68F4AC082A0D9081002D6106 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				68F4AC092A0D9081002D6106 /* line.mp3 */,
+				68F4AC0A2A0D9081002D6106 /* dot.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68DAE9D329F1EB2100BDD28B /* MorseTeacher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68DAE9E229F1EB2200BDD28B /* Build configuration list for PBXNativeTarget "MorseTeacher" */;
+			buildPhases = (
+				68DAE9D029F1EB2100BDD28B /* Sources */,
+				68DAE9D129F1EB2100BDD28B /* Frameworks */,
+				68DAE9D229F1EB2100BDD28B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MorseTeacher;
+			productName = MorseTeacher;
+			productReference = 68DAE9D429F1EB2100BDD28B /* MorseTeacher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68DAE9CC29F1EB2100BDD28B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					68DAE9D329F1EB2100BDD28B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 68DAE9CF29F1EB2100BDD28B /* Build configuration list for PBXProject "MorseTeacher" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68DAE9CB29F1EB2100BDD28B;
+			productRefGroup = 68DAE9D529F1EB2100BDD28B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68DAE9D329F1EB2100BDD28B /* MorseTeacher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68DAE9D229F1EB2100BDD28B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F4AC0C2A0D9081002D6106 /* dot.mp3 in Resources */,
+				68DAE9DF29F1EB2200BDD28B /* Preview Assets.xcassets in Resources */,
+				68DAE9DC29F1EB2200BDD28B /* Assets.xcassets in Resources */,
+				68F4AC0B2A0D9081002D6106 /* line.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68DAE9D029F1EB2100BDD28B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F4AC122A0D92D1002D6106 /* SettingsView.swift in Sources */,
+				68F4AC142A0D9332002D6106 /* InstructionsView.swift in Sources */,
+				68F4AC1A2A0D95A4002D6106 /* QuizView.swift in Sources */,
+				68F4AC102A0D9261002D6106 /* SymbolView.swift in Sources */,
+				68F4AC052A0D8E9B002D6106 /* ScoreViewModel.swift in Sources */,
+				68F4AC162A0D936B002D6106 /* AboutView.swift in Sources */,
+				68DAE9DA29F1EB2100BDD28B /* ContentView.swift in Sources */,
+				68F4AC072A0D8F74002D6106 /* ButtonView.swift in Sources */,
+				68F4AC1C2A0E5812002D6106 /* PadView.swift in Sources */,
+				68DAE9D829F1EB2100BDD28B /* MorseTeacherApp.swift in Sources */,
+				68F4AC182A0D94AA002D6106 /* TutorialView.swift in Sources */,
+				68F4AC0E2A0D91D0002D6106 /* MorseAlphabet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		68DAE9E029F1EB2200BDD28B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68DAE9E129F1EB2200BDD28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68DAE9E329F1EB2200BDD28B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MorseTeacher/Preview Content\"";
+				DEVELOPMENT_TEAM = T3577S6M37;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrancescoBernaudo.MorseTeacher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68DAE9E429F1EB2200BDD28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MorseTeacher/Preview Content\"";
+				DEVELOPMENT_TEAM = T3577S6M37;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrancescoBernaudo.MorseTeacher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68DAE9CF29F1EB2100BDD28B /* Build configuration list for PBXProject "MorseTeacher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68DAE9E029F1EB2200BDD28B /* Debug */,
+				68DAE9E129F1EB2200BDD28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68DAE9E229F1EB2200BDD28B /* Build configuration list for PBXNativeTarget "MorseTeacher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68DAE9E329F1EB2200BDD28B /* Debug */,
+				68DAE9E429F1EB2200BDD28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68DAE9CC29F1EB2100BDD28B /* Project object */;
+}
